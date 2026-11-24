@@ -1,0 +1,23 @@
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+*.env
+!.env.example
+!airflow.env.example
+
+# Airflow
+logs/
+airflow.db
+
+# IDE
+.idea/
+.vscode/
+
+# Generated data
+data/output/*
+!data/output/.gitkeep
